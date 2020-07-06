@@ -1,17 +1,49 @@
 #header {
     width: 100%;
     font-size: 1.5em;
-    background-color: dodgerblue;
+    background-color: olivedrab;
     text-align: center;
     justify-content: center;
+    align-items: center;
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
 }
 
-.material-icons {
-    display: inline;
+#search-icon {
+    float: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    vertical-align: middle;
+    color: whitesmoke;
 }
 
-.searchtxt {
-    display: inline;
+#searchtxt {
+    padding: 0;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    line-height: 40px;
+    font-size: 1.5em;
+    width: 90%;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+#search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    height: 40px;
+    border: olivedrab 3px solid;
+    border-radius: 40px;
+    background-color: olivedrab;
 }
