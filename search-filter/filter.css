@@ -47,3 +47,33 @@
     border-radius: 40px;
     background-color: olivedrab;
 }
+
+.card-container {
+    display: block;
+    text-align: center;
+    margin-top: 120px;
+    padding: 80px;
+}
+
+.card {
+    text-align: left;
+    border: 1px solid;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    border-color: black;
+    box-shadow: slategrey;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.card-head {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.card-desc {
+    font-size: 1.1em;
+}
